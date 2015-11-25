@@ -1,0 +1,81 @@
+{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf270
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;}
+\vieww15160\viewh14740\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\b\fs36 \cf0 Interaction\
+
+\b0\fs24 \
+"Interaction" is a series of Quartz Composer compositions that demonstrate how to build an interactive photo browser.  The sample begins by loading a directory of images and displaying them with the use of an iterator.  The images are then made interactive using the Interaction patch and shows how individual elements can have their initial positions set while still remaining interactive.  Lastly, the sample illustrates how the positions of individual elements within the iterative system can be used to drive animation. \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\b \cf0 Sample Requirements
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 The supplied Quartz Composer compositions were created using the Quartz Composer editor running under Mac OS X 10.6.x or later.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+\cf0 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\b \cf0 About the Sample
+\b0 \
+The sample is decomposed into seven steps which culminate in the final composition.  \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f1\fs20 \cf0 00 - Background.qtz 
+\f0\fs24 draws a gradient image using a Billboard patch.  \
+
+\f1\fs20 01 - Image Bar.qtz 
+\f0\fs24 encapsulates the previous step into a macro named "Background" and draws the image bar.\
+
+\f1\fs20 02 - Load Images.qtz 
+\f0\fs24 downloads and processes a folder of images using CoreImage and JavaScript. \
+
+\f1\fs20 03 - Interactive Images.qtz 
+\f0\fs24 adds interactivity to the individual Billboards found within the Iterator using the Interaction patch.  \
+
+\f1\fs20 04 - Layout.qtz sets the initial 
+\f0\fs24 positions of the images.\
+
+\f1\fs20 05 - More Interaction.qtz 
+\f0\fs24 adds interaction to the image bar which is also used to move the images.\
+
+\f1\fs20 06 - Final.qtz 
+\f0\fs24 smoothly scales the individual images if they are above the image bar.  \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\b \cf0 Using the Sample
+\b0 \
+Open the compositions using the Quartz Composer editor which can be found in 
+\f1\fs20 /Developer/Applications
+\f0\fs24 .  \
+\
+
+\b Installation\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\b0 \cf0 n/a
+\f1\fs20 \
+
+\f0\fs24 	\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\b \cf0 Changes from Previous Versions
+\b0 \
+n/a\
+\
+\
+
+\b Feedback and Bug Reports
+\b0 \
+Please send all feedback about this sample to:\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+{\field{\*\fldinst{HYPERLINK "http://developer.apple.com/contact/feedback.html"}}{\fldrslt \cf0 http://developer.apple.com/contact/feedback.html}}\
+\
+Please submit any bug reports about this sample to:\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+{\field{\*\fldinst{HYPERLINK "http://developer.apple.com/bugreporter"}}{\fldrslt \cf0 http://developer.apple.com/bugreporter}}}
